@@ -1,0 +1,19 @@
+{
+  "name": "02-setup-local-redis",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+
+  "scripts": {
+     "dev":"node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0",
+    "mongoose": "^9.9.4",
+    "redis": "^6.2.1"
+  }
+}
